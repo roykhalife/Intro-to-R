@@ -1,0 +1,5 @@
+A <- matrix(1:100, nrow=10)
+B <- matrix(1:1000, nrow=10)
+determinant.matrix(B)
+determinant.matrix(A)
+(solve(A,B))
