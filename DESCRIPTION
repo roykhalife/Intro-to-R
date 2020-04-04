@@ -1,0 +1,10 @@
+Package: SequenceAlign
+Type: Package
+Title: Describes Aspects of Protein Sequences
+Version: 0.0.0.9000
+Author: Roy Khalife
+Maintainer: Roy Khalife <roykhalife@mail.usf.edu>
+Description: This package can list different protein sequences, as well as count up the number of amino acids per sequence.
+License: GPL General Public License
+Depends: R (>= 3.5.2)
+LazyData: true
