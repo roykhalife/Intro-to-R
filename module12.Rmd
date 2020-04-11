@@ -1,0 +1,33 @@
+---
+title: "RoysfirstRmarkdown"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+**This is my first R markdown, and I will be messing with my options here below.** 
+
+Here is some data preloaded onto R along with its summary
+
+```{r}
+library(carData)
+data(CanPop)
+summary(CanPop)
+```
+
+```{r}
+library(lattice)
+xyplot(CanPop$population ~ CanPop$year, ylab="Population (in Millions)", xlab="Year")
+```
+
+Through this graph, we can infer that:
+
+* More people are living in Canada every year
+
+* The growth is almost exponential 
+
+* Canadians are probably nice people if people want to live there despite the cold conditions
